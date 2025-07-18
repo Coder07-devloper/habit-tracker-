@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🌟 Daily Habit Tracker</h1>
+      <button id="theme-toggle">🌓</button>
+    </div>
+    <form id="habit-form">
+      <input type="text" id="habit-input" placeholder="Add a new habit..." required />
+      <button type="submit">Add</button>
+    </form>
+    <div id="habit-list"></div>
+    <div class="progress">
+      <p id="progress-text">0% Completed</p>
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="quote">
+      <p id="quote-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
